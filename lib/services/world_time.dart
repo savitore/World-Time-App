@@ -12,7 +12,7 @@ class WorldTime{
 
   WorldTime({required this.location, required this.flag, required this.url});
 
-  Future<void> getTime() async{// we used Future<void> instead of just void so that we can use await keyword in loading.dart at line 15
+  Future<void> getTime() async{// we used Future<void> instead of just void so that we can use await keyword in loading.dart at line 16
 
     try{
       //make the request
